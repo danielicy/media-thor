@@ -1,0 +1,31 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #222;
+  padding-bottom: 16px;
+}
+
+.app-header h1 { font-size: 1.5rem; }
+
+.app-nav { display: flex; gap: 8px; }
+
+.app-nav button {
+  background: #1a1a1a;
+  color: #aaa;
+  border: 1px solid #333;
+}
+.app-nav button.active {
+  background: #6366f1;
+  color: #fff;
+  border-color: #6366f1;
+}
+.app-nav button:hover { background: #333; }
+.app-nav button.active:hover { background: #5558e6; }

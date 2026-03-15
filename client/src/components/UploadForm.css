@@ -1,0 +1,21 @@
+.upload-form {
+  background: #1a1a1a;
+  border: 1px solid #222;
+  border-radius: 10px;
+  padding: 24px;
+  margin-bottom: 32px;
+}
+
+.upload-form h2 {
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+}
+
+.upload-form-row { margin-bottom: 12px; }
+
+.btn-primary {
+  background: #6366f1;
+  color: #fff;
+}
+.btn-primary:hover { background: #5558e6; }
+.btn-primary:disabled { opacity: 0.6; cursor: not-allowed; }
